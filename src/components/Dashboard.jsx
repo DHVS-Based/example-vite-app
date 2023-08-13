@@ -6,7 +6,7 @@ import LineChart from './LineChart';
 const Dashboard = () => {
   return (
     <div className='grow p-6'>
-      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
         <SummaryCard
           title='Total Spending'
           cost={10000}
@@ -34,33 +34,33 @@ const Dashboard = () => {
       <DetailedCard
         title='Expense Table'
       >
-        <table class="w-full text-slate-900">
+        <table className="w-full text-slate-900">
           <thead>
               <tr>
-                <th class="px-2 py-1.5">Service Provider</th>
-                <th class="px-2 py-1.5">Category</th>
-                <th class="px-2 py-1.5">Cost</th>
-                <th class="px-2 py-1.5">Date</th>
+                <th className="px-2 py-1.5">Service Provider</th>
+                <th className="px-2 py-1.5">Category</th>
+                <th className="px-2 py-1.5">Cost</th>
+                <th className="px-2 py-1.5">Date</th>
               </tr>
           </thead>
           <tbody>
               <tr className='text-center'>
-                <td class="px-2 py-1.5">AWS</td>
-                <td class="px-2 py-1.5">Storage</td>
-                <td class="px-2 py-1.5">$100</td>
-                <td class="px-2 py-1.5">2023-08-01</td>
+                <td className="px-2 py-1.5">AWS</td>
+                <td className="px-2 py-1.5">Storage</td>
+                <td className="px-2 py-1.5">$100</td>
+                <td className="px-2 py-1.5">2023-08-01</td>
               </tr>
               <tr className='text-center'>
-                <td class="px-2 py-1.5">Azure</td>
-                <td class="px-2 py-1.5">Compute</td>
-                <td class="px-2 py-1.5">$200</td>
-                <td class="px-2 py-1.5">2023-08-02</td>
+                <td className="px-2 py-1.5">Azure</td>
+                <td className="px-2 py-1.5">Compute</td>
+                <td className="px-2 py-1.5">$200</td>
+                <td className="px-2 py-1.5">2023-08-02</td>
               </tr>
               <tr className='text-center'>
-                <td class="px-2 py-1.5">GCP</td>
-                <td class="px-2 py-1.5">Networking</td>
-                <td class="px-2 py-1.5">$150</td>
-                <td class="px-2 py-1.5">2023-08-03</td>
+                <td className="px-2 py-1.5">GCP</td>
+                <td className="px-2 py-1.5">Networking</td>
+                <td className="px-2 py-1.5">$150</td>
+                <td className="px-2 py-1.5">2023-08-03</td>
               </tr>
           </tbody>
         </table>
