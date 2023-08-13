@@ -48,6 +48,7 @@ const data = [
 
 const LineChartComp = () => {
   return (
+    <ResponsiveContainer width="100%" height="100%">
       <LineChart
         width={500}
         height={300}
@@ -67,6 +68,7 @@ const LineChartComp = () => {
         <Line type="monotone" dataKey="pv" stroke="#8884d8" strokeDasharray="5 5" />
         <Line type="monotone" dataKey="uv" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
       </LineChart>
+    </ResponsiveContainer>
   );
 }
 
