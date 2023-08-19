@@ -2,7 +2,7 @@ import React from 'react';
 
 const SummaryCard = ({ title, cost = 0 }) => {
   return (
-    <div className="flex items-center justify-between p-4 bg-white rounded-2xl border border-gray-300">
+    <div className="flex items-center justify-between p-4 bg-slate-50 rounded-lg shadow-md">
         <div>
           <h2 className="text-lg font-semibold text-slate-900">
             {title}
